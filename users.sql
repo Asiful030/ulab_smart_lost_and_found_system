@@ -27,14 +27,15 @@ SET time_zone = "+00:00";
 -- Table structure for table `users`
 --
 
-CREATE TABLE `users` (
-  `user_id` int(11) NOT NULL,
-  `name` varchar(50) NOT NULL,
-  `ulab_pass` varchar(20) DEFAULT NULL,
-  `department` varchar(50) DEFAULT 'N/A',
-  `email` varchar(100) DEFAULT NULL,
-  `created_date` date DEFAULT curdate()
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+CREATE TABLE users (
+  user_id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(50) NOT NULL,
+  ulab_id VARCHAR(20) NOT NULL UNIQUE,   -- student/employee ID
+  department VARCHAR(50) DEFAULT 'N/A',
+  email VARCHAR(100) NOT NULL UNIQUE,
+  password_hash VARCHAR(255) NOT NULL,   -- hashed password (for login)
+  created_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `users`
