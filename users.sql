@@ -51,7 +51,7 @@ INSERT INTO users (user_id, name, ulab_id, department, email, phone, password_ha
 (4, 'Asif Ahamad', '223014215', 'CSE', 'asif.ahamad.cse@ulab.edu.bd', NULL, '$2a$12$xhLg/A6pcDRa5vPg5iklBubof47YhmRPiFCEsx0R8RkS0hlMfvVIe', 'user', 'active', '2025-08-23'),
 (5, 'Md Samiul Alam', '223014176', 'CSE', 'samiul.alam.cse@ulab.edu.bd', NULL, '$2a$12$qbni3o1tLOAUxnTe7ItfOeezBalBXi3wNZBXBeVjXNpegbiv4nl3C', 'user', 'active', '2025-08-23'),
 (6, 'Hasinar Khatun Laboni', '223011203', 'BBA', 'hasina.khatun.bba@ulab.edu.bd', NULL, '$2a$12$i4pvXhI4v7sh.i9tMm9w0.8dmDv.D2NPBn/cmNUVO77KMFqpaJYcS', 'user', 'active', '2025-08-23'),
-(7, 'Nahida Afrin', '163014022', 'CSE', 'nahida.afrin.cse@ulab.edu.bd', NULL, '$2a$12$97VwEtMinX/NpaM9M1QOxONRQkNETH4qjU3x/fSqxcGcdeylsBdZ2', 'user', 'active', '2025-08-23'),
+(7, 'Nahida Afrin', '163014022', 'CSE', 'nahida.afrin.cse@ulab.edu.bd', 01750087515, '$2a$12$97VwEtMinX/NpaM9M1QOxONRQkNETH4qjU3x/fSqxcGcdeylsBdZ2', 'user', 'active', '2025-08-23'),
 (8, 'Shakil Ahmed Shawon', '201014081', 'CSE', 'shakil.ahmed.cse@ulab.edu.bd', NULL, '$2a$12$x/.W/UiAc73CNaR.UB0mtOhlyka7l1EG3R52XZyqkU0Cf0KAG7pvG', 'user', 'active', '2025-08-23'),
 (9, 'S.M.Ehasan Ul Islam', '241016002', 'EEE', 'ehasanul.islam.eee@ulab.edu.bd', NULL, '$2a$12$cO10Z/DM/ZxTlEZ.j7xZeeB4u3DtrH1n2xEJs4hEQtbtybFQpqj5G', 'user', 'active', '2025-08-23'),
 (10, 'Abonti Kanta Mandal', '221014057', 'CSE', 'abonti.kanta.cse@ulab.edu.bd', NULL, '$2a$12$WkOrK5FBPoVox4NW9alSyejCH6NIcyxFqOEqG3xz0kxy6waGGY3Gq', 'user', 'active', '2025-08-23'),
@@ -60,9 +60,9 @@ INSERT INTO users (user_id, name, ulab_id, department, email, phone, password_ha
 (13, 'Halima Khatoon Oni', '172014040', 'CSE', 'halima.khatun.cse@ulab.edu.bd', NULL, '$2a$12$vI0jnn.AMoBDui774NHj4OcgHf0tkCgT1CaqZKEtqLPClKSHEUnIa', 'user', 'active', '2025-08-23'),
 (14, 'MD.Sharif Hasan', '233017008', 'BBA', 'sharif.hasan.bba@ulab.edu.bd', NULL, '$2a$12$4tgYHHZ80mwR9z1iN4JCNetAfjPEWOdSS5s9C75Oq1Todu1YM0OHe', 'user', 'active', '2025-08-23'),
 (15, 'Afrida haque Maria', '212014009', 'CSE', 'afrida.haque.cse@ulab.edu.bd', NULL, '$2a$12$O85x4L4vQ1VbE8XGf12z9.djD11lYAZhSj9hvRqj8tQfbhO8xub12', 'user', 'active', '2025-08-23'),
-(16, 'Md Nayeem Ahmed', '183014038', 'CSE', 'nayeem.ahmed1.cse@ulab.edu.bd', NULL, '$2a$12$ENHZlPAY6nYvxtjqrj.fN.GheV.Q8qaG/Ax1JkBZexaMY33mp2jpe', 'user', 'active', '2025-08-23'),
+(16, 'Md Nayeem Ahmed', '183014038', 'CSE', 'nayeem.ahmed1.cse@ulab.edu.bd', 01620244502, '$2a$12$ENHZlPAY6nYvxtjqrj.fN.GheV.Q8qaG/Ax1JkBZexaMY33mp2jpe', 'user', 'active', '2025-08-23'),
 (17, 'Manish Chowdhury', '242013052', 'DEH', 'manish.chowdhury.deh@ulab.edu.bd', NULL, '$2a$12$vlrJIE.hz.kR17QXrjMzqOkuhF4x4BlmHabd3YXE7OSgEe0ORoVbq', 'user', 'active', '2025-08-23'),
-(18, 'Nusrat Jahann Suchana', '171014014', 'CSE', 'nusrat.jahan7.cse@ulab.edu.bd', NULL, '$2a$12$qz4IvLdwWiwdZclTXitkSuQwfL0IyTTuqncw0b5rZ0NaxDal9srIG', 'user', 'active', '2025-08-23');
+(18, 'Nusrat Jahann Suchana', '171014014', 'CSE', 'nusrat.jahan7.cse@ulab.edu.bd',01646309515, '$2a$12$qz4IvLdwWiwdZclTXitkSuQwfL0IyTTuqncw0b5rZ0NaxDal9srIG', 'user', 'active', '2025-08-23');
 
 
 --
