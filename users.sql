@@ -45,12 +45,12 @@ CREATE TABLE users (
 --
 
 INSERT INTO users (user_id, name, ulab_id, department, email, phone, password_hash, role, status, created_date) VALUES
-(1, 'Mst. Maimuna Hossain Maliha', '233014068', 'CSE', 'maimuna.hossain.cse@ulab.edu.bd', NULL, 'hashed_pass', 'user', 'active', '2025-08-23'),
-(2, 'Sumaya Akter', '242011272', 'BBA', 'sumaya.akter.bba@ulab.edu.bd', NULL, 'hashed_pass', 'user', 'active', '2025-08-23'),
-(3, 'Jannatul Bushra Mou', '242013120', 'DEH', 'jannatul.bushra1.deh@ulab.edu.bd', NULL, 'hashed_pass', 'user', 'active', '2025-08-23'),
-(4, 'Asif Ahamad', '223014215', 'CSE', 'asif.ahamad.cse@ulab.edu.bd', NULL, 'hashed_pass', 'user', 'active', '2025-08-23'),
-(5, 'Md Samiul Alam', '223014176', 'CSE', 'samiul.alam.cse@ulab.edu.bd', NULL, 'hashed_pass', 'user', 'active', '2025-08-23'),
-(6, 'Hasinar Khatun Laboni', '223011203', 'BBA', 'hasina.khatun.bba@ulab.edu.bd', NULL, 'hashed_pass', 'user', 'active', '2025-08-23'),
+(1, 'Mst. Maimuna Hossain Maliha', '233014068', 'CSE', 'maimuna.hossain.cse@ulab.edu.bd', NULL, '$2a$12$22Ely3DnSwgVKt6ucKDfleuxXT6vlxHKilIfo2iJP.hHEFeDsLpNO', 'user', 'active', '2025-08-23'),
+(2, 'Sumaya Akter', '242011272', 'BBA', 'sumaya.akter.bba@ulab.edu.bd', NULL, '$2a$12$PsvVv2hzh8NoPBRGbAzSMe3QSLyAdcxe1ks3cKfucfjgPzvvVluD.', 'user', 'active', '2025-08-23'),
+(3, 'Jannatul Bushra Mou', '242013120', 'DEH', 'jannatul.bushra1.deh@ulab.edu.bd', NULL, '$2a$12$.XNt9XenGz1Z/ElHDZyuE.2AZCVucwUTw8P/zXWDv//EzaO.aZG3i', 'user', 'active', '2025-08-23'),
+(4, 'Asif Ahamad', '223014215', 'CSE', 'asif.ahamad.cse@ulab.edu.bd', NULL, '$2a$12$xhLg/A6pcDRa5vPg5iklBubof47YhmRPiFCEsx0R8RkS0hlMfvVIe', 'user', 'active', '2025-08-23'),
+(5, 'Md Samiul Alam', '223014176', 'CSE', 'samiul.alam.cse@ulab.edu.bd', NULL, '$2a$12$qbni3o1tLOAUxnTe7ItfOeezBalBXi3wNZBXBeVjXNpegbiv4nl3C', 'user', 'active', '2025-08-23'),
+(6, 'Hasinar Khatun Laboni', '223011203', 'BBA', 'hasina.khatun.bba@ulab.edu.bd', NULL, '$2a$12$i4pvXhI4v7sh.i9tMm9w0.8dmDv.D2NPBn/cmNUVO77KMFqpaJYcS', 'user', 'active', '2025-08-23'),
 (7, 'Nahida Afrin', '163014022', 'CSE', 'nahida.afrin.cse@ulab.edu.bd', NULL, 'hashed_pass', 'user', 'active', '2025-08-23'),
 (8, 'Shakil Ahmed Shawon', '201014081', 'CSE', 'shakil.ahmed.cse@ulab.edu.bd', NULL, 'hashed_pass', 'user', 'active', '2025-08-23'),
 (9, 'S.M.Ehasan Ul Islam', '241016002', 'EEE', 'ehasanul.islam.eee@ulab.edu.bd', NULL, 'hashed_pass', 'user', 'active', '2025-08-23'),
