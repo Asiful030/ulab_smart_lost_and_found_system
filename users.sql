@@ -44,7 +44,8 @@ CREATE TABLE users (
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`user_id`, `name`, `ulab_pass`, `department`, `email`, `created_date`) VALUES
+INSERT INTO users (user_id, name, ulab_id, department, email, phone, password_hash, role, status, created_date) VALUES
+ VALUES
 (1, 'Mst. Maimuna Hossain Maliha', '233014068', 'CSE', 'maimuna.hossain.cse@ulab.edu.bd', '2025-08-23'),
 (2, 'Sumaya Akter', '242011272', 'BBA', 'sumaya.akter.bba@ulab.edu.bd', '2025-08-23'),
 (3, 'Jannatul Bushra Mou', '242013120', 'DEH', 'jannatul.bushra1.deh@ulab.edu.bd', '2025-08-23'),
