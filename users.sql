@@ -72,10 +72,10 @@ INSERT INTO users (user_id, name, ulab_id, department, email, phone, password_ha
 --
 -- Indexes for table `users`
 --
-ALTER TABLE `users`
-  ADD PRIMARY KEY (`user_id`),
-  ADD UNIQUE KEY `email` (`email`),
-  ADD UNIQUE KEY `ulab_pass` (`ulab_pass`);
+ALTER TABLE users
+  ADD PRIMARY KEY (user_id),
+  ADD UNIQUE KEY email (email),
+  ADD UNIQUE KEY ulab_id (ulab_id);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
