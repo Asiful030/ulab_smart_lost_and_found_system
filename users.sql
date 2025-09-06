@@ -45,25 +45,25 @@ CREATE TABLE users (
 --
 
 INSERT INTO users (user_id, name, ulab_id, department, email, phone, password_hash, role, status, created_date) VALUES
- VALUES
-(1, 'Mst. Maimuna Hossain Maliha', '233014068', 'CSE', 'maimuna.hossain.cse@ulab.edu.bd', '2025-08-23'),
-(2, 'Sumaya Akter', '242011272', 'BBA', 'sumaya.akter.bba@ulab.edu.bd', '2025-08-23'),
-(3, 'Jannatul Bushra Mou', '242013120', 'DEH', 'jannatul.bushra1.deh@ulab.edu.bd', '2025-08-23'),
-(4, 'Asif Ahamad', '223014215', 'CSE', 'asif.ahamad.cse@ulab.edu.bd', '2025-08-23'),
-(5, 'Md Samiul Alam', '223014176', 'CSE', 'samiul.alam.cse@ulab.edu.bd', '2025-08-23'),
-(6, 'Hasinar Khatun Laboni', '223011203', 'BBA', 'hasina.khatun.bba@ulab.edu.bd', '2025-08-23'),
-(7, 'Nahida Afrin', '163014022', 'CSE', 'nahida.afrin.cse@ulab.edu.bd', '2025-08-23'),
-(8, 'Shakil Ahmed Shawon', '201014081', 'CSE', 'shakil.ahmed.cse@ulab.edu.bd', '2025-08-23'),
-(9, 'S.M.Ehasan Ul Islam', '241016002', 'EEE', 'ehasanul.islam.eee@ulab.edu.bd ', '2025-08-23'),
-(10, 'Abonti Kanta Mandal', '221014057', 'CSE', 'abonti.kanta.cse@ulab.edu.bd', '2025-08-23'),
-(11, 'Md. Abdullah Ahsan Sanim', '233014177', 'CSE', 'abdullah.ahsan.cse@ulab.edu.bd', '2025-08-23'),
-(12, 'TANJINA JAMAL', '241011063', 'BBA', 'tanjina.jamal.bba@ulab.edu.bd', '2025-08-23'),
-(13, 'Halima Khatoon Oni', '172014040', 'CSE', 'halima.khatun.cse@ulab.edu.bd', '2025-08-23'),
-(14, 'MD.Sharif Hasan', '233017008', 'BBA', 'sharif.hasan.bba@ulab.edu.bd', '2025-08-23'),
-(15, 'Afrida haque Maria', '212014009', 'CSE', 'afrida.haque.cse@ulab.edu.bd', '2025-08-23'),
-(16, 'Md Nayeem Ahmed', '183014038', 'CSE', 'nayeem.ahmed1.cse@ulab.edu.bd', '2025-08-23'),
-(17, 'Manish Chowdhury', '242013052', 'DEH', 'manish.chowdhury.deh@ulab.edu.bd', '2025-08-23'),
-(18, 'Nusrat Jahann Suchana', '171014014', 'CSE', 'nusrat.jahan7.cse@ulab.edu.bd', '2025-08-23');
+(1, 'Mst. Maimuna Hossain Maliha', '233014068', 'CSE', 'maimuna.hossain.cse@ulab.edu.bd', NULL, 'hashed_pass', 'user', 'active', '2025-08-23'),
+(2, 'Sumaya Akter', '242011272', 'BBA', 'sumaya.akter.bba@ulab.edu.bd', NULL, 'hashed_pass', 'user', 'active', '2025-08-23'),
+(3, 'Jannatul Bushra Mou', '242013120', 'DEH', 'jannatul.bushra1.deh@ulab.edu.bd', NULL, 'hashed_pass', 'user', 'active', '2025-08-23'),
+(4, 'Asif Ahamad', '223014215', 'CSE', 'asif.ahamad.cse@ulab.edu.bd', NULL, 'hashed_pass', 'user', 'active', '2025-08-23'),
+(5, 'Md Samiul Alam', '223014176', 'CSE', 'samiul.alam.cse@ulab.edu.bd', NULL, 'hashed_pass', 'user', 'active', '2025-08-23'),
+(6, 'Hasinar Khatun Laboni', '223011203', 'BBA', 'hasina.khatun.bba@ulab.edu.bd', NULL, 'hashed_pass', 'user', 'active', '2025-08-23'),
+(7, 'Nahida Afrin', '163014022', 'CSE', 'nahida.afrin.cse@ulab.edu.bd', NULL, 'hashed_pass', 'user', 'active', '2025-08-23'),
+(8, 'Shakil Ahmed Shawon', '201014081', 'CSE', 'shakil.ahmed.cse@ulab.edu.bd', NULL, 'hashed_pass', 'user', 'active', '2025-08-23'),
+(9, 'S.M.Ehasan Ul Islam', '241016002', 'EEE', 'ehasanul.islam.eee@ulab.edu.bd', NULL, 'hashed_pass', 'user', 'active', '2025-08-23'),
+(10, 'Abonti Kanta Mandal', '221014057', 'CSE', 'abonti.kanta.cse@ulab.edu.bd', NULL, 'hashed_pass', 'user', 'active', '2025-08-23'),
+(11, 'Md. Abdullah Ahsan Sanim', '233014177', 'CSE', 'abdullah.ahsan.cse@ulab.edu.bd', NULL, 'hashed_pass', 'user', 'active', '2025-08-23'),
+(12, 'TANJINA JAMAL', '241011063', 'BBA', 'tanjina.jamal.bba@ulab.edu.bd', NULL, 'hashed_pass', 'user', 'active', '2025-08-23'),
+(13, 'Halima Khatoon Oni', '172014040', 'CSE', 'halima.khatun.cse@ulab.edu.bd', NULL, 'hashed_pass', 'user', 'active', '2025-08-23'),
+(14, 'MD.Sharif Hasan', '233017008', 'BBA', 'sharif.hasan.bba@ulab.edu.bd', NULL, 'hashed_pass', 'user', 'active', '2025-08-23'),
+(15, 'Afrida haque Maria', '212014009', 'CSE', 'afrida.haque.cse@ulab.edu.bd', NULL, 'hashed_pass', 'user', 'active', '2025-08-23'),
+(16, 'Md Nayeem Ahmed', '183014038', 'CSE', 'nayeem.ahmed1.cse@ulab.edu.bd', NULL, 'hashed_pass', 'user', 'active', '2025-08-23'),
+(17, 'Manish Chowdhury', '242013052', 'DEH', 'manish.chowdhury.deh@ulab.edu.bd', NULL, 'hashed_pass', 'user', 'active', '2025-08-23'),
+(18, 'Nusrat Jahann Suchana', '171014014', 'CSE', 'nusrat.jahan7.cse@ulab.edu.bd', NULL, 'hashed_pass', 'user', 'active', '2025-08-23');
+
 
 --
 -- Indexes for dumped tables
