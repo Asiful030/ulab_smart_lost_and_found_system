@@ -33,7 +33,10 @@ CREATE TABLE users (
   ulab_id VARCHAR(20) NOT NULL UNIQUE,   -- student/employee ID
   department VARCHAR(50) DEFAULT 'N/A',
   email VARCHAR(100) NOT NULL UNIQUE,
+  phone VARCHAR(20) DEFAULT NULL,
   password_hash VARCHAR(255) NOT NULL,   -- hashed password (for login)
+  role ENUM('admin', 'user') DEFAULT 'user',
+  status ENUM('active', 'inactive') DEFAULT 'active',
   created_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
